@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1789" height="666" viewBox="0 0 1789 666">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.04" y1="2.504" x2="0.23" y2="-0.502" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00f3ff"/>
+      <stop offset="0.442" stop-color="#4e7ff9"/>
+      <stop offset="1" stop-color="#37338a"/>
+    </linearGradient>
+    <filter id="Rectángulo_106" x="0" y="0" width="1789" height="666" filterUnits="userSpaceOnUse">
+      <feOffset dy="50" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="41.5" result="blur"/>
+      <feFlood flood-color="#3a7cdd" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_108" data-name="Rectángulo 108" width="1540" height="417" rx="44.593" transform="translate(215.666 8393)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="0.502" y1="1.039" x2="0.498" y2="-0.23" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00f3ff"/>
+      <stop offset="1" stop-color="#4e7ff9"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_1581" data-name="Grupo 1581" transform="translate(-91.166 -8318.5)">
+    <g transform="matrix(1, 0, 0, 1, 91.17, 8318.5)" filter="url(#Rectángulo_106)">
+      <rect id="Rectángulo_106-2" data-name="Rectángulo 106" width="1540" height="417" rx="44.593" transform="translate(124.5 74.5)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Grupo_306" data-name="Grupo 306">
+      <g id="Grupo_305" data-name="Grupo 305" clip-path="url(#clip-path)">
+        <g id="Grupo_304" data-name="Grupo 304">
+          <rect id="Rectángulo_107" data-name="Rectángulo 107" width="612.384" height="612.384" transform="translate(2041.359 7786)" fill="url(#linear-gradient-2)"/>
+        </g>
+      </g>
+    </g>
+    <g id="Grupo_308" data-name="Grupo 308">
+      <g id="Grupo_307" data-name="Grupo 307">
+        <text id="Token_EYC_un_activo_digital_único" data-name="Token EYC, un activo
+digital único" transform="translate(1104.667 8569.337)" fill="#fff" font-size="59" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="-301.107" y="0">Token EYC, un activo</tspan><tspan x="-181.84" y="70.8">digital único</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
