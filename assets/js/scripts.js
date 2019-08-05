@@ -977,7 +977,6 @@
 Carrousel
 =======================================*/
 function moveToSelected(element) {
-
     if (element == "next") {
       var selected = $(".selected").next();
     } else if (element == "prev") {
@@ -985,23 +984,11 @@ function moveToSelected(element) {
     } else {
       var selected = element;
     }
-  
     var next = $(selected).next();
     var prev = $(selected).prev();
-    var prevSecond = $(prev).prev();
-    var nextSecond = $(next).next();
-  
     $(selected).removeClass().addClass("selected");
-  
     $(prev).removeClass().addClass("prev");
     $(next).removeClass().addClass("next");
-  
-    $(nextSecond).removeClass().addClass("nextRightSecond");
-    $(prevSecond).removeClass().addClass("prevLeftSecond");
-  
-    $(nextSecond).nextAll().removeClass().addClass('hideRight');
-    $(prevSecond).prevAll().removeClass().addClass('hideLeft');
-  
   }
   
   // Eventos teclado
@@ -1019,11 +1006,8 @@ function moveToSelected(element) {
       }
       e.preventDefault();
   });
-  
-  $('#carousel div').click(function() {
-    moveToSelected($(this));
-  });
-  
+
+  // Eventos botones
   $('#prev').click(function() {
     moveToSelected('prev');
   });
@@ -1031,9 +1015,10 @@ function moveToSelected(element) {
   $('#next').click(function() {
     moveToSelected('next');
   });
-  
 
-
+//   $('#carousel div').click(function() {
+//     moveToSelected($(this));
+//   });
 
 
 })(jQuery);
